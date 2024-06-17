@@ -26,11 +26,13 @@ This Python service downloads PDF fund documents from a specific website once a 
    
 2. Create and activate a virtual environment:
 
+   ```sh
    python -m venv env
    .\env\Scripts\activate  # On Windows
    source env/bin/activate  # On macOS/Linux
 
-3. Install the required packages:
+4. Install the required packages:
 
+   ```sh
    pip install -r requirements.txt
 
